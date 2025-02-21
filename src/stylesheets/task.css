@@ -1,0 +1,30 @@
+.task-container {
+    width: 100%;
+    max-width: 422px;
+    min-height: 30px;
+    margin: 5px 0px;
+    padding: 8px 15px 8px 20px;
+    background-color: rgb(34, 30, 66);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    overflow-wrap: anywhere; /*cuando el texto no tiene mas espacio en lo ancho, sigue para abajo*/
+}
+
+.task-container.finished {
+    background-color: rgb(61, 54, 116);
+    text-decoration: line-through;
+}
+
+.task-icon{
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+    margin-left: 5px; 
+}
